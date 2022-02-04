@@ -5,8 +5,32 @@ from django.shortcuts import render
 
 
 def index(request):
-    return render(request, 'products/index.html')
+    context = {
+        'title': 'Store'
+    }
+    return render(request, 'products/index.html', context)
 
 
 def products(request):
-    return render(request, 'products/products.html')
+    context = {
+        'title': 'Store - Каталог'
+    }
+    return render(request, 'products/products.html', context)
+
+
+def test_context(request):
+    context = {
+        'title': 'store',
+        'header': 'Добро пожаловать!',
+        'username': 'Иван Иванов',
+        'products': [
+            {'name': 'Худи черного цвета с монограммами adidas Originals', 'price': 600.00},
+            {'name': 'Синяя куртка The North Face', 'price': 1800.00},
+            {'name': 'Коричневый спортивный oversized-топ ASOS DESIGN', 'price': 849.00},
+        ],
+        # 'promotion': True,
+        'products_of_promotion': [
+            {'name': 'Черный рюкзак Nike Heritage', 'price': 500.00},
+        ]
+    }
+    return render(request, 'products/test-context.html', context)
