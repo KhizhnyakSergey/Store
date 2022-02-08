@@ -1,0 +1,301 @@
+[
+{
+  "model": "products.product",
+  "pk": 1,
+  "fields": {
+    "name": "Худи черного цвета с монограммами adidas Originals",
+    "image": "products_images/Adidas-hoodie.png",
+    "description": "",
+    "short_description": "Мягкая ткань для свитшотов. Стиль и комфорт – это образ жизни.",
+    "price": "850.00",
+    "quantity": 15,
+    "category": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 2,
+  "fields": {
+    "name": "Синяя куртка The North Face",
+    "image": "products_images/Blue-jacket-The-North-Face.png",
+    "description": "",
+    "short_description": "Гладкая ткань. Водонепроницаемое покрытие. Легкий и теплый пуховый наполнитель.",
+    "price": "3299.00",
+    "quantity": 7,
+    "category": 2
+  }
+},
+{
+  "model": "products.product",
+  "pk": 3,
+  "fields": {
+    "name": "Коричневый спортивный oversized-топ ASOS DESIGN",
+    "image": "products_images/Brown-sports-oversized-top-ASOS-DESIGN.png",
+    "description": "",
+    "short_description": "Материал с плюшевой текстурой. Удобный и мягкий.",
+    "price": "1450.00",
+    "quantity": 7,
+    "category": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 4,
+  "fields": {
+    "name": "Черный рюкзак Nike Heritage",
+    "image": "products_images/Black-Nike-Heritage-backpack.png",
+    "description": "",
+    "short_description": "Плотная ткань. Легкий материал.",
+    "price": "600.00",
+    "quantity": 5,
+    "category": 4
+  }
+},
+{
+  "model": "products.product",
+  "pk": 5,
+  "fields": {
+    "name": "Черные туфли на платформе с 3 парами люверсов Dr Martens 1461 Bex",
+    "image": "products_images/Black-Dr-Martens-shoes.png",
+    "description": "",
+    "short_description": "Гладкий кожаный верх. Натуральный материал.",
+    "price": "1850.00",
+    "quantity": 6,
+    "category": 3
+  }
+},
+{
+  "model": "products.product",
+  "pk": 6,
+  "fields": {
+    "name": "Темно-синие широкие строгие брюки ASOS DESIGN",
+    "image": "products_images/Dark-blue-wide-leg-ASOs-DESIGN-trousers.png",
+    "description": "",
+    "short_description": "Легкая эластичная ткань сирсакер Фактурная ткань.",
+    "price": "750.00",
+    "quantity": 9,
+    "category": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 7,
+  "fields": {
+    "name": "Футболка со сплошным принтом",
+    "image": "products_images/Футболка_со_сплошным_принтом.png",
+    "description": "",
+    "short_description": "Футболка из хлопка сплошной принт",
+    "price": "350.00",
+    "quantity": 4,
+    "category": 2
+  }
+},
+{
+  "model": "products.product",
+  "pk": 8,
+  "fields": {
+    "name": "Халат NASA",
+    "image": "products_images/Nasa.png",
+    "description": "",
+    "short_description": "Внешняя сторона: 100% ПОЛИЭСТЕР",
+    "price": "500.00",
+    "quantity": 7,
+    "category": 4
+  }
+},
+{
+  "model": "products.product",
+  "pk": 9,
+  "fields": {
+    "name": "Носки Rick&Morty, 2 пары",
+    "image": "products_images/rik.png",
+    "description": "",
+    "short_description": "Внешняя сторона: 70% ХЛОПОК, 27% ПОЛИЭСТЕР, 3% ЭЛАСТАН",
+    "price": "120.00",
+    "quantity": 5,
+    "category": 4
+  }
+},
+{
+  "model": "products.product",
+  "pk": 10,
+  "fields": {
+    "name": "Свитшот с капюшоном и манжетами",
+    "image": "products_images/svit.png",
+    "description": "",
+    "short_description": "Внешняя сторона: 60% ХЛОПОК, 40% ПОЛИЭСТЕР",
+    "price": "630.00",
+    "quantity": 4,
+    "category": 2
+  }
+},
+{
+  "model": "products.product",
+  "pk": 11,
+  "fields": {
+    "name": "Джинсовая куртка",
+    "image": "products_images/Джинсовая_куртка.png",
+    "description": "",
+    "short_description": "Внешняя сторона: 100% ХЛОПОК",
+    "price": "750.00",
+    "quantity": 6,
+    "category": 2
+  }
+},
+{
+  "model": "products.product",
+  "pk": 12,
+  "fields": {
+    "name": "Хлопковая рубашка",
+    "image": "products_images/рубашка.jpg",
+    "description": "",
+    "short_description": "Внешняя сторона: 100% ХЛОПОК",
+    "price": "500.00",
+    "quantity": 4,
+    "category": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 13,
+  "fields": {
+    "name": "Джинсы Dad с вареным эффектом",
+    "image": "products_images/dad.png",
+    "description": "Мужские джинсы фасона Dad с завышенной посадкой и свободными, зауженными книзу штанинами. Джинсовая ткань с легким вареным эффектом.",
+    "short_description": "Внешняя сторона: 100% ХЛОПОК",
+    "price": "899.00",
+    "quantity": 7,
+    "category": 2
+  }
+},
+{
+  "model": "products.product",
+  "pk": 14,
+  "fields": {
+    "name": "Футболка с надписью",
+    "image": "products_images/Футболка_с_надписью.png",
+    "description": "",
+    "short_description": "Внешняя сторона: 100% ХЛОПОК",
+    "price": "399.00",
+    "quantity": 10,
+    "category": 2
+  }
+},
+{
+  "model": "products.product",
+  "pk": 15,
+  "fields": {
+    "name": "Рюкзак из искусственной кожи",
+    "image": "products_images/Рюкзак_из_искусственной_кожи.jpg",
+    "description": "",
+    "short_description": "Классический мужской рюкзак из искусственной кожи черного цвета.",
+    "price": "849.00",
+    "quantity": 4,
+    "category": 4
+  }
+},
+{
+  "model": "products.product",
+  "pk": 16,
+  "fields": {
+    "name": "Куртка-рубашка в клетку",
+    "image": "products_images/Куртка-рубашка_в_клетку.png",
+    "description": "Мужская куртка-рубашка на пуговицах из тканого материала в клетку.\r\n\r\nстандартная длина\r\nпрямой крой\r\nслегка спущенная линия плечевого шва\r\nотложной воротник\r\n ряд пуговиц\r\n накладной нагрудный карман\r\n манжеты на пуговицах\r\n\r\n\r\n\r\nРост модели: 188 cm",
+    "short_description": "Мужская куртка-рубашка на пуговицах из тканого материала в клетк",
+    "price": "1200.00",
+    "quantity": 4,
+    "category": 2
+  }
+},
+{
+  "model": "products.product",
+  "pk": 17,
+  "fields": {
+    "name": "Трикотажная шапка",
+    "image": "products_images/Трикотажная_шапка.jpg",
+    "description": "Мужская желтая шапка из мягкой трикотажной ткани с высоким содержанием материалов вторичной переработки. Коллекция Eco Aware.\r\n\r\nоблегающий крой\r\nдвухслойный фасон\r\nмаленькая нашивка у края спереди\r\nширокий отворот",
+    "short_description": "Шапка с высоким содержанием материалов вторичной переработки.",
+    "price": "400.00",
+    "quantity": 5,
+    "category": 4
+  }
+},
+{
+  "model": "products.product",
+  "pk": 18,
+  "fields": {
+    "name": "Кепка Hi-Five",
+    "image": "products_images/Кепка_Hi-Five.jpg",
+    "description": "Светло-серая мужская кепка из хлопковой ткани с вышивкой спереди и регулируемым хлястиком с металлической застежкой.",
+    "short_description": "Внешняя сторона: 100% ХЛОПОК",
+    "price": "350.00",
+    "quantity": 7,
+    "category": 4
+  }
+},
+{
+  "model": "products.product",
+  "pk": 19,
+  "fields": {
+    "name": "Трикотажные джоггеры Basic",
+    "image": "products_images/djogger.png",
+    "description": "Мужские свободные джоггеры из трикотажной ткани с высоким содержанием хлопка.\r\n\r\nлиния Basic\r\nсвободный фасон\r\nэластичный пояс на резинке с завязками\r\nдва боковых кармана\r\nдлинные зауженные книзу штанины с эластичной резинкой\r\nдва накладных кармана сзади",
+    "short_description": "Внешняя сторона: 60% ХЛОПОК, 40% ПОЛИЭСТЕР",
+    "price": "800.00",
+    "quantity": 10,
+    "category": 2
+  }
+},
+{
+  "model": "products.product",
+  "pk": 20,
+  "fields": {
+    "name": "Джинсы Carrot Fit",
+    "image": "products_images/Джинсы_Carrot_Fit.png",
+    "description": "Мужские джинсы классического фасона Carrot Fit со стандартной посадкой и слегка зауженными книзу штанинами. Коллекция Eco Aware.\r\n\r\n\r\nлиния Basic\r\nфасон Carrot Fit\r\nстандартная посадка\r\nзастежка-молния и пуговица-болт\r\nсвободные, слегка зауженные книзу штанины\r\nтри кармана спереди\r\nдва накладных кармана сзади",
+    "short_description": "Внешняя сторона: 98% ХЛОПОК, 2% ЭЛАСТАН",
+    "price": "999.00",
+    "quantity": 13,
+    "category": 2
+  }
+},
+{
+  "model": "products.product",
+  "pk": 21,
+  "fields": {
+    "name": "Кроссовки",
+    "image": "products_images/Кроссовки.png",
+    "description": "",
+    "short_description": "Материал I: 70% ПОЛИЭСТЕР, 30% ПВХ",
+    "price": "1800.00",
+    "quantity": 7,
+    "category": 3
+  }
+},
+{
+  "model": "products.product",
+  "pk": 22,
+  "fields": {
+    "name": "Кеды The Simpsons",
+    "image": "products_images/Кеды_The_Simpsons.png",
+    "description": "THE SIMPSONS TM & © Twentieth Century Fox Film Corporation. All Rights Reserved.",
+    "short_description": "THE SIMPSONS TM & © Twentieth Century Fox Film Corporation.",
+    "price": "900.00",
+    "quantity": 4,
+    "category": 3
+  }
+},
+{
+  "model": "products.product",
+  "pk": 23,
+  "fields": {
+    "name": "Челси",
+    "image": "products_images/chelsi.jpg",
+    "description": "",
+    "short_description": "Материал I: 70% ПОЛИУРЕТАН, 30% ЭЛАСТАН",
+    "price": "1500.00",
+    "quantity": 6,
+    "category": 3
+  }
+}
+]

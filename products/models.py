@@ -10,7 +10,8 @@ class ProductCategory(models.Model):
     description = models.TextField(blank=True)
 
     class Meta:
-        verbose_name_plural = 'Product Categories'
+        verbose_name = 'Категория'
+        verbose_name_plural = 'Категории продуктов'
 
     def __str__(self):
         return self.name
@@ -25,6 +26,10 @@ class Product(models.Model):
     quantity = models.PositiveIntegerField(default=0)
     category = models.ForeignKey(ProductCategory, on_delete=models.CASCADE)  # удаление категории = удалены все товары
 
+    class Meta:
+        verbose_name = 'Продукт'
+        verbose_name_plural = 'Продукты'
+
     def __str__(self):
         return f'{self.name} | {self.category.name}'
 
@@ -35,8 +40,25 @@ class Basket(models.Model):
     quantity = models.PositiveIntegerField(default=0)
     created_timestamp = models.DateTimeField(auto_now_add=True)
 
+    class Meta:
+        verbose_name = 'Корзина'
+        verbose_name_plural = 'Корзины'
+
     def __str__(self):
         return f'Корзина для {self.user.username} | Продукт {self.product.name}'
 
     def sum(self):
         return self.quantity * self.product.price
+
+# Мое добавление
+class Slider(models.Model):
+    img = models.ImageField(upload_to='slider_images')
+    css = models.CharField(max_length=200, null=True, default='-', verbose_name='CSS Класс')
+    title = models.CharField(max_length=200, verbose_name='Заголовок')
+
+    def __str__(self):
+        return self.title
+
+    class Meta:
+        verbose_name = 'Слайд'
+        verbose_name_plural = 'Слайды'

@@ -1,5 +1,5 @@
 При обычном создании:
-python manage.py dumpdata products.Products > goods.json
+python manage.py dumpdata products.Product > goods.json
 python manage.py dumpdata products.ProductCategory > categories.json
 
 потом при загрузке была ошибка:
@@ -9,11 +9,9 @@ django.db.utils.IntegrityError: Problem installing fixture
 
 Создание базы данных
 
-python manage.py dumpdata --exclude=contenttypes --exclude=auth.Pe
-rmission products.ProductCategory > categories.json
+python manage.py dumpdata --exclude=contenttypes --exclude=auth.Permission products.ProductCategory > categories.json
 
-python manage.py dumpdata --exclude=contenttypes --exclude=auth.Pe
-rmission products.Product > goods1.json
+python manage.py dumpdata --exclude=contenttypes --exclude=auth.Permission products.Product > goods.json
 
 
 Далее вручную поменял иероглифы и загрузил
@@ -21,3 +19,8 @@ rmission products.Product > goods1.json
 python manage.py loaddata products/fixtures/categories.json
 
 python manage.py loaddata products/fixtures/goods.json
+
+
+------------------------------------------
+python manage.py dumpdata --indent 2 --exclude auth.permission --exclude contenttypes products.Product > goods_full.json
+python manage.py dumpdata --indent 2 --exclude auth.permission --exclude contenttypes products.ProductCategory > categories_full.json

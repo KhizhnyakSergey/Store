@@ -2,7 +2,7 @@ from django.shortcuts import render, HttpResponseRedirect
 from django.contrib.auth.decorators import login_required
 from django.core.paginator import Paginator
 
-from products.models import ProductCategory, Product, Basket
+from products.models import ProductCategory, Product, Basket, Slider
 # Create your views here.
 # контроллеры = views (вьюхи) = функции
 
@@ -15,7 +15,8 @@ def index(request):
 
 
 def products(request, category_id=None, page=1):
-    context = {'title': 'Store - Каталог', 'categories': ProductCategory.objects.all()}
+    slider_list = Slider.objects.all()
+    context = {'title': 'Store - Каталог', 'slider_list': slider_list, 'categories': ProductCategory.objects.all()}
     if category_id:
         products = Product.objects.filter(category_id=category_id)
     else:
