@@ -50,6 +50,7 @@ class Basket(models.Model):
     def sum(self):
         return self.quantity * self.product.price
 
+
 # Мое добавление
 class Slider(models.Model):
     img = models.ImageField(upload_to='slider_images')
